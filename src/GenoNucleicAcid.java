@@ -4,7 +4,7 @@ public class GenoNucleicAcid {
 
     static Scanner s1 = new Scanner(System.in);
 
-    public NucleicAcid input(){
+    public NucleicAcid input(){ //input questions
 
         System.out.print("Enter your Nucleic Acid name: ");
         String name = s1.next();
@@ -15,8 +15,6 @@ public class GenoNucleicAcid {
         System.out.print("What is the molar mass?: ");
         float Molarmass = s1.nextFloat();
 
-        System.out.printf(Molarmass+"\n");
-
         System.out.print("What is the density?: ");
         float Density = s1.nextFloat();
 
@@ -26,13 +24,20 @@ public class GenoNucleicAcid {
     }
 
 
-    public void main(){
+    public void main(){ //driver
+        //inputs
         NucleicAcid acid1 = input();
-        acid1.print();
         NucleicAcid acid2 = input();
-        acid2.print();
         NucleicAcid acid3 = input();
+        NucleicAcid acid4 = input();
+        NucleicAcid acid5 = input();
+
+        //outputs
+        acid1.print();
+        acid2.print();
         acid3.print();
+        acid4.print();
+        acid5.print();
     }
 
 
