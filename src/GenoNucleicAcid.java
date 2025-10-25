@@ -34,5 +34,4 @@ public class GenoNucleicAcid {
         NucleicAcid acid3 = input();
         acid3.print();
     }
-
 }
